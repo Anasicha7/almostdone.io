@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entahlah</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            background: linear-gradient(to right top, #161623);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Oswald', sans-serif;
+        }
+        .glass {
+            background: #35354b;
+            min-height: 80vh;
+            width: 60%;
+            background: linear-gradient(
+                to right bottom, 
+                rgba(255, 255, 255, 0.4),
+                rgba(255, 255, 255, 0.2));
+                border-radius: 2rem;
+                z-index: 2;
+                backdrop-filter: blur(2rem);
+        }
+        .circle1,
+        .circle2 {
+            background: #787887;
+            background: linear-gradient(
+                to right bottom,
+                rgba(255, 255, 255, 1)
+                rgba(255, 255, 255, 0.5)
+            );
+            height: 20rem;
+            width: 50rem;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle1 {
+            top: 5%;
+            right: 15%;
+            background: #787887;
+        }
+        .circle2 {
+            bottom: 5%;
+            left: 10%;
+        }
+    </style>
+
+</head>
+<body>
+    
+
+<main class="app">
+
+    <nav data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html"><img src="/images/fix.png" alt=""></a>
+        </div>
+    
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li class="active"><a href="history.html">History</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="main-header">
+        <h1><span>History From Diffrent Place</span></h1>
+        <p>various kinds of products from various cities and islands in Indonesia</p>
+    </header>
+
+    <section class="glass"></section>
+
+    <div class="circle1"></div>
+        <div class="circle2"></div>
+
+
+    <section class="wrappers">
+        <div class="cards">
+            <h2>01</h2>
+            <p>The history of coffee in Indonesia is inseparable from the role of Dutch colonialism. In 1696, 
+                the Dutch first brought in Arabica coffee seeds to be planted on the island of Java.
+                The Dutch tried to cultivate the coffee seeds in the Kedawung area, a plantation near Batavia.
+                Previously, the Dutch had carried out a large-scale expansion of coffee cultivation since 
+                1696 using a forced cultivation system. Coffee is considered to be a profitable commodity, 
+                and the area for growing it is being expanded. The area was referred to as Sulawesi in 1750,
+                the highlands of North Sumatra near Lake Toba in 1888, and Gayo near a freshwater lake in 1924.</p>
+                <a href="javascript:void();" class="readmore">Read More</a>
+        </div>
+
+    <div class="copyright" data-scene>
+        <div class="container" data-aos="zoom-out-up" data-aos-offset="0">
+            <p>@ 2021 all coffee | All Rights Reserved</p>
+        </div>
+    </div>
+
+</main>
+
+
+</body>
+</html>
